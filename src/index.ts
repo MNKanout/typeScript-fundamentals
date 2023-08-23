@@ -25,3 +25,10 @@ let any_array_1 = [1,"2", true]; // Array of different types of elements
 // Tuples
 // Exactly an array with one number and one string elements.
 let user: [number, string] = [1, 'Mike'];
+
+// Enum
+// Enumerate related constants
+enum MySize {Small = 1, Medium, Large} // Small=1, Medium=2, Large=3..etc
+
+// To generate clean JS code we use
+const enum MySizeTwo {Small = 1, Medium, Large}
