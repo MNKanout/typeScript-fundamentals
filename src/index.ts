@@ -13,11 +13,15 @@ let level: any;
 
 //  Arrays
 //  With type annotation
-let numbers: number[] = [1,2,3] // Array of numbers
-let strings: string[] = ['1','2','3'] // Array of strings
-let any_array: any[] = [1,"2", true] // Array of different types of elements
+let numbers: number[] = [1,2,3]; // Array of numbers
+let strings: string[] = ['1','2','3']; // Array of strings
+let any_array: any[] = [1,"2", true]; // Array of different types of elements
 
 //  Without type annotation
-let numbers_1 = [1,2,3] // Array of numbers
-let strings_1 = ['1','2','3'] // Array of strings
-let any_array_1 = [1,"2", true] // Array of different types of elements
+let numbers_1 = [1,2,3]; // Array of numbers
+let strings_1 = ['1','2','3']; // Array of strings
+let any_array_1 = [1,"2", true]; // Array of different types of elements
+
+// Tuples
+// Exactly an array with one number and one string elements.
+let user: [number, string] = [1, 'Mike'];
