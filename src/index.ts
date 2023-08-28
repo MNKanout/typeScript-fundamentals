@@ -38,28 +38,32 @@ function calculateTaxFive(income: number): number {
 
 // A function with error for returning undefined object when the condition is false.
 function calculateTaxSix(income: number): number {
-    if (income > 50)
-    return income * 1.5;
-    // return undefined if income < 50
+    if (income > 50){
+        return income * 1.5; 
+    }
+    // Return undefined if income < 50
 }
 
 // A function that fixes returning an undefined object from the previous example.
 function calculateTaxSeven(income: number): number {
-    if (income > 50)
+    if (income > 50) {
         return income * 1.5;
+    }
     return income * 1.2;
 }
 
 // A function with two arguments, and returning one value.
 function calculateTaxEight(income: number, taxYear: number): number {
-    if (taxYear > 50)
+    if (taxYear > 50) {
         return income * 1.5;
+    }
     return income * 1.2;
 }
 
 // A function with a default value
 function calculateTaxNine(income: number, taxYear = 2022): number {
-    if (taxYear > 50)
+    if (taxYear > 50) {
         return income * 1.5;
+    }
     return income * 1.2;
 }
