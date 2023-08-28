@@ -28,7 +28,7 @@ let textBox: UIWidget = {
 
 // Literal types
 // We used literal types when we want to limit the variable values to an exact value.
-type Quantity = 50 | 100 // the values can range from 50 to 100 for the quantity.
+type Quantity = 50 | 100 // the values can be either 50 or 100 for the quantity.
 let quantity: Quantity = 100;
 
 type Metric = 'cm' | 'inch';
